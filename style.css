@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.button{
+	margin: 2;
+	width: 70px;
+	height: 70px;
+	font-size: 25px;
+	cursor: pointer;
+	/*background-color: lightblue;*/
+	/*border:none;*/
+	/*color: white;*/
+}
+
+.text{
+	width: 270px;
+	margin: 5px;
+	margin-top: 20px; 
+	font-size: 25px;
+	padding: 5px;
+	border: 1px solid black;
+	/*color: #000;*/
+}
+
+.zero{
+	width: 143px;
+}
+
+.equal{
+	height: 143px;
+}
+
+.border-1{
+	border: 1px solid black;
+}
